@@ -1,0 +1,131 @@
+{
+  "shoppingPreferences": {
+    "shoppingFrequency": {
+      "timesPerWeek": 1,
+      "description": "How many times per week do you want to shop? (1, 2, or 3)",
+      "notes": "More frequent shopping = fresher produce. Less frequent = fewer store trips. Choose based on your schedule."
+    },
+    "shoppingSchedule": {
+      "description": "Your recommended shopping days based on frequency preference",
+      "oneTimePerWeek": {
+        "frequency": 1,
+        "recommendedDay": "Sunday",
+        "notes": "Shop once for all 7 days. Buy all shelf-stable items + 7 days worth of fresh items.",
+        "shoppingTrips": [
+          {
+            "tripNumber": 1,
+            "day": "Sunday",
+            "daysOfMealsCovered": "Days 1-7 (Monday-Sunday)",
+            "itemsToBuy": {
+              "shelfStable": true,
+              "fresh": true,
+              "expiresIn": "7 days",
+              "tips": "Buy heartier vegetables that last longer (carrots, sweet potatoes, cabbage). Store greens in containers with paper towels. Buy extra eggs for snacks. Consider buying some frozen vegetables for later in the week."
+            }
+          }
+        ]
+      },
+      "twoTimesPerWeek": {
+        "frequency": 2,
+        "recommendedDays": ["Sunday", "Wednesday"],
+        "notes": "Shop twice for fresher produce midweek. More flexibility to try new recipes.",
+        "shoppingTrips": [
+          {
+            "tripNumber": 1,
+            "day": "Sunday",
+            "daysOfMealsCovered": "Days 1-4 (Monday-Thursday)",
+            "itemsToBuy": {
+              "shelfStable": true,
+              "fresh": true,
+              "expiresIn": "3-4 days",
+              "itemCategories": {
+                "allShelfStableItems": "Buy all shelf-stable pantry items for the full week",
+                "proteins": "Buy 4 days worth (chicken, ground beef, eggs, salmon)",
+                "vegetables": "Buy 4 days worth (choose hardy vegetables: broccoli, carrots, sweet potatoes, bell peppers)",
+                "fruits": "Buy 4 days worth (apples, berries, avocados)",
+                "healthyFats": "Buy all oils, nuts, nut butters for the week"
+              },
+              "tips": "This is your main stock-up trip. Buy all pantry staples, seasonings, and shelf-stable items for the entire week. Fresh items should last 3-4 days."
+            }
+          },
+          {
+            "tripNumber": 2,
+            "day": "Wednesday",
+            "daysOfMealsCovered": "Days 5-7 (Friday-Sunday)",
+            "itemsToBuy": {
+              "shelfStable": false,
+              "fresh": true,
+              "expiresIn": "3-4 days",
+              "itemCategories": {
+                "proteins": "Buy 3 days worth (chicken, ground beef, eggs, salmon - whatever you didn't buy on Sunday)",
+                "vegetables": "Buy 3 days worth (choose items that stay fresh: leafy greens, zucchini, asparagus, mushrooms)",
+                "fruits": "Buy 3 days worth (whatever is freshest mid-week)",
+                "noShelfStableNeeded": "You already bought these on Sunday"
+              },
+              "tips": "Quick trip for fresh items only. Skip the pantry aisles - you're stocked! Focus on getting the freshest produce for the end of the week."
+            }
+          }
+        ]
+      },
+      "threeTimesPerWeek": {
+        "frequency": 3,
+        "recommendedDays": ["Sunday", "Wednesday", "Friday"],
+        "notes": "Shop three times for maximum freshness. Best for those who want the freshest ingredients daily.",
+        "shoppingTrips": [
+          {
+            "tripNumber": 1,
+            "day": "Sunday",
+            "daysOfMealsCovered": "Days 1-3 (Monday-Wednesday)",
+            "itemsToBuy": {
+              "shelfStable": true,
+              "fresh": true,
+              "expiresIn": "2-3 days",
+              "itemCategories": {
+                "allShelfStableItems": "Buy all shelf-stable pantry items for the full week",
+                "proteins": "Buy 3 days worth",
+                "vegetables": "Buy 3 days worth (any variety)",
+                "fruits": "Buy 3 days worth",
+                "healthyFats": "Buy all oils, nuts, nut butters for the week"
+              },
+              "tips": "Your main stock-up trip. Load up on all pantry staples. Fresh items should stay crisp for 2-3 days."
+            }
+          },
+          {
+            "tripNumber": 2,
+            "day": "Wednesday",
+            "daysOfMealsCovered": "Days 4-5 (Thursday-Friday)",
+            "itemsToBy": {
+              "shelfStable": false,
+              "fresh": true,
+              "expiresIn": "2-3 days",
+              "itemCategories": {
+                "proteins": "Buy 2 days worth",
+                "vegetables": "Buy 2 days worth (pick the crispest, freshest items)",
+                "fruits": "Buy 2 days worth",
+                "noShelfStableNeeded": "You already bought these on Sunday"
+              },
+              "tips": "Midweek refresh. Quick trip for fresh proteins and vegetables. Your produce will be extra crisp!"
+            }
+          },
+          {
+            "tripNumber": 3,
+            "day": "Friday",
+            "daysOfMealsCovered": "Days 6-7 (Saturday-Sunday)",
+            "itemsToBy": {
+              "shelfStable": false,
+              "fresh": true,
+              "expiresIn": "2-3 days",
+              "itemCategories": {
+                "proteins": "Buy 2 days worth",
+                "vegetables": "Buy 2 days worth",
+                "fruits": "Buy 2 days worth",
+                "noShelfStableNeeded": "You already bought these on Sunday"
+              },
+              "tips": "Weekend refresh. Grab the freshest options for the weekend. Everything will be peak freshness!"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
