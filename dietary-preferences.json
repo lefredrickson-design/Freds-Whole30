@@ -1,0 +1,80 @@
+{
+  "dietaryPreferences": {
+    "purpose": "Customize your Whole30 meal plan by excluding foods you don't want to eat",
+    "instructions": "Set your preferences below by marking items as true (exclude) or false (include). These preferences will be used to filter meal suggestions.",
+    "excludedProteins": {
+      "beef": false,
+      "pork": false,
+      "chicken": false,
+      "turkey": false,
+      "lamb": false,
+      "seafood": false,
+      "salmon": false,
+      "shrimp": false,
+      "eggs": false,
+      "otherProteins": ""
+    },
+    "excludedVegetables": {
+      "broccoli": false,
+      "cauliflower": false,
+      "brussels_sprouts": false,
+      "carrots": false,
+      "sweet_potatoes": false,
+      "bell_peppers": false,
+      "zucchini": false,
+      "asparagus": false,
+      "green_beans": false,
+      "spinach": false,
+      "kale": false,
+      "mushrooms": false,
+      "onions": false,
+      "tomatoes": false,
+      "celery": false,
+      "cucumber": false,
+      "otherVegetables": ""
+    },
+    "excludedFruits": {
+      "apples": false,
+      "bananas": false,
+      "berries": false,
+      "oranges": false,
+      "lemons": false,
+      "limes": false,
+      "avocados": false,
+      "otherFruits": ""
+    },
+    "excludedHealthyFats": {
+      "ghee": false,
+      "coconut_oil": false,
+      "avocado_oil": false,
+      "olive_oil": false,
+      "almonds": false,
+      "cashews": false,
+      "walnuts": false,
+      "pecans": false,
+      "almond_butter": false,
+      "tahini": false,
+      "olives": false,
+      "coconut": false,
+      "otherFats": ""
+    },
+    "excludedSeasonings": {
+      "garlic": false,
+      "onion_powder": false,
+      "cilantro": false,
+      "basil": false,
+      "oregano": false,
+      "thyme": false,
+      "rosemary": false,
+      "cumin": false,
+      "paprika": false,
+      "chili_powder": false,
+      "otherSeasonings": ""
+    },
+    "allergies": {
+      "description": "List any known allergies or intolerances to avoid completely",
+      "items": []
+    },
+    "notes": "Add any additional dietary restrictions or preferences here"
+  }
+}
