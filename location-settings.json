@@ -1,0 +1,85 @@
+{
+  "locationSettings": {
+    "description": "Configure your location to receive seasonal produce recommendations and recipes",
+    "userLocation": {
+      "region": "US - Northeast",
+      "instructions": "Update 'region' below with your location. Examples: US - Northeast, US - Southeast, US - Midwest, US - Southwest, US - Pacific, Canada - Ontario, Europe - UK, etc."
+    },
+    "supportedRegions": {
+      "us_northeast": {
+        "region": "US - Northeast",
+        "states": ["Maine", "Vermont", "New Hampshire", "Massachusetts", "Rhode Island", "Connecticut", "New York", "New Jersey", "Pennsylvania"],
+        "springGrowingStart": "May",
+        "summerPeak": "July-August",
+        "fallHarvest": "September-October",
+        "winterStorable": "November-March",
+        "notes": "Short growing season, focus on storage crops and seasonal succession"
+      },
+      "us_southeast": {
+        "region": "US - Southeast",
+        "states": ["Virginia", "North Carolina", "South Carolina", "Georgia", "Florida", "Tennessee", "Kentucky", "Arkansas", "Louisiana"],
+        "springGrowingStart": "April",
+        "summerPeak": "June-July",
+        "fallHarvest": "August-October",
+        "winterStorable": "October-March",
+        "notes": "Longer growing season, two planting cycles possible"
+      },
+      "us_midwest": {
+        "region": "US - Midwest",
+        "states": ["Ohio", "Indiana", "Illinois", "Michigan", "Wisconsin", "Minnesota", "Iowa", "Missouri"],
+        "springGrowingStart": "May",
+        "summerPeak": "July-August",
+        "fallHarvest": "September-October",
+        "winterStorable": "November-March",
+        "notes": "Moderate growing season, excellent for corn, beans, squash"
+      },
+      "us_southwest": {
+        "region": "US - Southwest",
+        "states": ["Texas", "Arizona", "New Mexico", "Oklahoma"],
+        "springGrowingStart": "March",
+        "summerPeak": "April-May",
+        "fallHarvest": "September-November",
+        "winterStorable": "December-February",
+        "notes": "Two growing seasons possible, very hot summers"
+      },
+      "us_pacific": {
+        "region": "US - Pacific",
+        "states": ["Washington", "Oregon", "California"],
+        "springGrowingStart": "April",
+        "summerPeak": "June-August",
+        "fallHarvest": "September-October",
+        "winterStorable": "November-March",
+        "notes": "Long growing season, year-round possibilities in parts of California"
+      },
+      "canada_ontario": {
+        "region": "Canada - Ontario",
+        "provinces": ["Ontario"],
+        "springGrowingStart": "May",
+        "summerPeak": "July-August",
+        "fallHarvest": "September-October",
+        "winterStorable": "November-April",
+        "notes": "Shorter season, excellent farmers markets in summer"
+      },
+      "europe_uk": {
+        "region": "Europe - UK",
+        "notes": "Moderate growing season, excellent for brassicas and root vegetables"
+      },
+      "australia": {
+        "region": "Australia",
+        "notes": "Opposite seasons - Spring Sept-Nov, Summer Dec-Feb, Fall Mar-May, Winter Jun-Aug"
+      }
+    },
+    "userPreferences": {
+      "preferredSeason": "summer",
+      "description": "Which season do you prefer to focus on? (spring, summer, fall, winter, or year-round)",
+      "options": ["spring", "summer", "fall", "winter", "year-round"]
+    },
+    "mealPlanPreferences": {
+      "prioritizeLocalProduce": true,
+      "description": "When true, meal plans will prioritize in-season produce from your region",
+      "avoidOutOfSeason": false,
+      "description2": "When true, exclude out-of-season produce entirely (more strict)"
+    },
+    "notes": "Update these settings to customize your seasonal meal planning experience"
+  }
+}
