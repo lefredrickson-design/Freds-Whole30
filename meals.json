@@ -1,0 +1,253 @@
+{
+  "breakfasts": [
+    {
+      "id": "breakfast_001",
+      "name": "Scrambled Eggs with Vegetables",
+      "description": "Simple scrambled eggs with sautéed vegetables",
+      "proteins": ["eggs"],
+      "vegetables": ["spinach", "mushrooms", "bell peppers"],
+      "healthy_fats": ["ghee"],
+      "prep_time_minutes": 10,
+      "servings": 1,
+      "whole30_compliant": true
+    },
+    {
+      "id": "breakfast_002",
+      "name": "Turkey Sausage & Sweet Potato Hash",
+      "description": "Ground turkey with roasted sweet potatoes and vegetables",
+      "proteins": ["ground turkey"],
+      "vegetables": ["sweet potato", "onion", "broccoli"],
+      "healthy_fats": ["ghee"],
+      "prep_time_minutes": 25,
+      "servings": 2,
+      "whole30_compliant": true
+    },
+    {
+      "id": "breakfast_003",
+      "name": "Salmon & Vegetable Skillet",
+      "description": "Wild-caught salmon with sautéed vegetables",
+      "proteins": ["salmon"],
+      "vegetables": ["asparagus", "zucchini", "bell peppers"],
+      "healthy_fats": ["avocado oil"],
+      "prep_time_minutes": 15,
+      "servings": 1,
+      "whole30_compliant": true
+    },
+    {
+      "id": "breakfast_004",
+      "name": "Egg Frittata with Herbs",
+      "description": "Baked eggs with fresh herbs and vegetables",
+      "proteins": ["eggs"],
+      "vegetables": ["spinach", "mushrooms", "onion"],
+      "healthy_fats": ["ghee"],
+      "prep_time_minutes": 30,
+      "servings": 4,
+      "whole30_compliant": true
+    },
+    {
+      "id": "breakfast_005",
+      "name": "Chicken Apple Sausage & Fruit",
+      "description": "Organic chicken apple sausage with fresh fruit",
+      "proteins": ["chicken sausage"],
+      "vegetables": [],
+      "fruit": ["apple", "berries"],
+      "healthy_fats": [],
+      "prep_time_minutes": 10,
+      "servings": 1,
+      "whole30_compliant": true
+    }
+  ],
+  "lunches": [
+    {
+      "id": "lunch_001",
+      "name": "Grilled Chicken Caesar Salad",
+      "description": "Grilled chicken breast over lettuce with vegetables and olives",
+      "proteins": ["chicken breast"],
+      "vegetables": ["spinach", "cucumber", "cherry tomatoes"],
+      "healthy_fats": ["olives", "avocado oil"],
+      "prep_time_minutes": 15,
+      "servings": 1,
+      "whole30_compliant": true,
+      "notes": "Use compliant dressing"
+    },
+    {
+      "id": "lunch_002",
+      "name": "Ground Beef & Vegetable Bowl",
+      "description": "Seasoned ground beef with roasted vegetables",
+      "proteins": ["ground beef"],
+      "vegetables": ["sweet potato", "broccoli", "carrots"],
+      "healthy_fats": ["ghee"],
+      "prep_time_minutes": 30,
+      "servings": 2,
+      "whole30_compliant": true
+    },
+    {
+      "id": "lunch_003",
+      "name": "Baked Salmon with Green Beans",
+      "description": "Herb-baked salmon with roasted green beans and lemon",
+      "proteins": ["salmon"],
+      "vegetables": ["green beans", "asparagus"],
+      "healthy_fats": ["avocado oil"],
+      "prep_time_minutes": 20,
+      "servings": 1,
+      "whole30_compliant": true
+    },
+    {
+      "id": "lunch_004",
+      "name": "Turkey Lettuce Wraps",
+      "description": "Ground turkey seasoned with vegetables in lettuce leaves",
+      "proteins": ["ground turkey"],
+      "vegetables": ["lettuce", "bell peppers", "cucumber"],
+      "healthy_fats": ["avocado oil"],
+      "prep_time_minutes": 15,
+      "servings": 1,
+      "whole30_compliant": true
+    },
+    {
+      "id": "lunch_005",
+      "name": "Shrimp & Zucchini Noodles",
+      "description": "Pan-seared shrimp with spiralized zucchini",
+      "proteins": ["shrimp"],
+      "vegetables": ["zucchini", "bell peppers", "broccoli"],
+      "healthy_fats": ["ghee"],
+      "prep_time_minutes": 15,
+      "servings": 1,
+      "whole30_compliant": true
+    }
+  ],
+  "dinners": [
+    {
+      "id": "dinner_001",
+      "name": "Herb-Roasted Chicken with Vegetables",
+      "description": "Whole chicken or chicken thighs with roasted root vegetables",
+      "proteins": ["chicken"],
+      "vegetables": ["sweet potato", "carrots", "broccoli"],
+      "healthy_fats": ["ghee"],
+      "prep_time_minutes": 45,
+      "servings": 4,
+      "whole30_compliant": true
+    },
+    {
+      "id": "dinner_002",
+      "name": "Grass-Fed Beef Steak with Sautéed Vegetables",
+      "description": "Pan-seared steak with garlic and herbs, side of sautéed vegetables",
+      "proteins": ["beef steak"],
+      "vegetables": ["spinach", "mushrooms", "garlic"],
+      "healthy_fats": ["ghee"],
+      "prep_time_minutes": 20,
+      "servings": 1,
+      "whole30_compliant": true
+    },
+    {
+      "id": "dinner_003",
+      "name": "Whole30 Spaghetti Squash & Meatballs",
+      "description": "Ground beef meatballs with marinara and spaghetti squash",
+      "proteins": ["ground beef"],
+      "vegetables": ["spaghetti squash", "zucchini", "tomato"],
+      "healthy_fats": ["ghee"],
+      "prep_time_minutes": 35,
+      "servings": 4,
+      "whole30_compliant": true,
+      "notes": "Use compliant marinara sauce"
+    },
+    {
+      "id": "dinner_004",
+      "name": "Baked Salmon with Roasted Vegetables",
+      "description": "Lemon herb salmon with roasted asparagus and sweet potato",
+      "proteins": ["salmon"],
+      "vegetables": ["asparagus", "sweet potato", "broccoli"],
+      "healthy_fats": ["avocado oil"],
+      "prep_time_minutes": 30,
+      "servings": 2,
+      "whole30_compliant": true
+    },
+    {
+      "id": "dinner_005",
+      "name": "Zucchini Boats with Ground Turkey",
+      "description": "Halved zucchini filled with seasoned ground turkey and vegetables",
+      "proteins": ["ground turkey"],
+      "vegetables": ["zucchini", "bell peppers", "onion"],
+      "healthy_fats": ["ghee"],
+      "prep_time_minutes": 35,
+      "servings": 2,
+      "whole30_compliant": true
+    },
+    {
+      "id": "dinner_006",
+      "name": "Whole30 Chili",
+      "description": "Ground beef chili with vegetables and bone broth",
+      "proteins": ["ground beef"],
+      "vegetables": ["bell peppers", "onion", "carrots", "zucchini"],
+      "healthy_fats": ["ghee"],
+      "prep_time_minutes": 45,
+      "servings": 6,
+      "whole30_compliant": true,
+      "notes": "Make big batch for leftovers"
+    },
+    {
+      "id": "dinner_007",
+      "name": "Pan-Seared Shrimp with Citrus Vegetables",
+      "description": "Garlic and lemon shrimp with sautéed vegetables",
+      "proteins": ["shrimp"],
+      "vegetables": ["broccoli", "bell peppers", "asparagus"],
+      "healthy_fats": ["ghee"],
+      "prep_time_minutes": 15,
+      "servings": 2,
+      "whole30_compliant": true
+    }
+  ],
+  "snacks": [
+    {
+      "id": "snack_001",
+      "name": "Apple with Almond Butter",
+      "description": "Fresh apple with compliant almond butter",
+      "proteins": [],
+      "vegetables": [],
+      "fruit": ["apple"],
+      "healthy_fats": ["almond butter"],
+      "prep_time_minutes": 2,
+      "whole30_compliant": true
+    },
+    {
+      "id": "snack_002",
+      "name": "Olives & Nuts",
+      "description": "Mixed olives with raw almonds or cashews",
+      "proteins": [],
+      "vegetables": [],
+      "healthy_fats": ["olives", "almonds"],
+      "prep_time_minutes": 2,
+      "whole30_compliant": true
+    },
+    {
+      "id": "snack_003",
+      "name": "Fruit & Coconut",
+      "description": "Fresh berries with unsweetened shredded coconut",
+      "proteins": [],
+      "vegetables": [],
+      "fruit": ["berries"],
+      "healthy_fats": ["coconut"],
+      "prep_time_minutes": 2,
+      "whole30_compliant": true
+    },
+    {
+      "id": "snack_004",
+      "name": "Hard-Boiled Eggs",
+      "description": "Hard-boiled eggs with sea salt and herbs",
+      "proteins": ["eggs"],
+      "vegetables": [],
+      "healthy_fats": [],
+      "prep_time_minutes": 2,
+      "whole30_compliant": true
+    },
+    {
+      "id": "snack_005",
+      "name": "Carrots & Celery with Tahini",
+      "description": "Raw vegetables with compliant tahini dip",
+      "proteins": [],
+      "vegetables": ["carrots", "celery"],
+      "healthy_fats": ["tahini"],
+      "prep_time_minutes": 5,
+      "whole30_compliant": true
+    }
+  ]
+}
