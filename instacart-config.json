@@ -1,0 +1,161 @@
+{
+  "instacartConfig": {
+    "description": "Configuration file for Instacart integration with Whole30 meal planner",
+    "userAccount": {
+      "email": "your-email@instacart.com",
+      "instructions": "Update with your Instacart account email. This is used for order tracking only.",
+      "requiresInstacartAccount": true,
+      "signUpUrl": "https://www.instacart.com"
+    },
+    "deliveryPreferences": {
+      "deliveryZipCode": "12345",
+      "instructions": "Update with your zip code to access Instacart coverage",
+      "preferredStore": "Whole Foods",
+      "storeOptions": [
+        "Whole Foods",
+        "Kroger",
+        "Safeway",
+        "Trader Joe's",
+        "Sprouts Farmers Market",
+        "Costco",
+        "Target",
+        "Other (specify)"
+      ],
+      "deliveryOrPickup": "delivery",
+      "pickupOrDeliveryOptions": ["delivery", "pickup", "both"],
+      "preferredDeliveryTime": "Morning (6am-12pm)",
+      "timeSlotOptions": [
+        "Morning (6am-12pm)",
+        "Afternoon (12pm-6pm)",
+        "Evening (6pm-12am)",
+        "Any time"
+      ],
+      "deliveryInstructions": "Leave at door if not home"
+    },
+    "shoppingPreferences": {
+      "autoMatchProducts": true,
+      "description": "When true, system suggests matching Instacart products for your shopping list items",
+      "prioritizeOrganic": true,
+      "prioritizeBrands": ["pasture-raised", "grass-fed", "wild-caught", "organic"],
+      "avoidBrands": [],
+      "substitutionPreference": "ask",
+      "substitutionOptions": ["always accept", "always reject", "ask me"],
+      "savePrice": true,
+      "description2": "When true, prices are tracked for future comparison"
+    },
+    "paymentSettings": {
+      "savedPaymentMethod": true,
+      "description": "Payment info saved on Instacart side only - not stored here",
+      "autoCheckout": false,
+      "description2": "When true, cart can be auto-checked out (requires saved payment)",
+      "notificationPreference": "email",
+      "notificationOptions": ["email", "SMS", "app", "all"]
+    },
+    "integrationLevel": {
+      "level": 1,
+      "description": "Integration level: 1 (manual), 2 (smart matching), 3 (automation)",
+      "level1Manual": "You manually select items and click 'Add to Instacart'",
+      "level2SmartMatching": "System suggests products, you verify before adding",
+      "level3Automation": "Recurring orders and auto-add to cart enabled",
+      "recommendedForBeginners": 1,
+      "recommendedForFrequentShoppers": 2,
+      "recommendedForAutomation": 3
+    },
+    "orderTracking": {
+      "enableOrderHistory": true,
+      "trackSpending": true,
+      "trackItems": true,
+      "trackSubstitutions": true,
+      "saveFavoriteItems": true,
+      "orderHistoryPath": "order-history.json"
+    },
+    "recurringOrders": {
+      "enabled": false,
+      "description": "Enable to automatically reorder favorite Whole30 staples",
+      "recurringItems": [
+        {
+          "itemName": "Organic Chicken Breast",
+          "quantity": "3 lbs",
+          "frequency": "weekly",
+          "store": "Whole Foods"
+        }
+      ],
+      "frequencyOptions": ["weekly", "biweekly", "monthly", "custom"],
+      "autoReorderThreshold": "when stock runs low"
+    },
+    "security": {
+      "twoFactorAuthEnabled": true,
+      "description": "Enable 2FA on your Instacart account for security",
+      "storePasswords": false,
+      "storePaymentInfo": false,
+      "privacyNotice": "This system does NOT store payment or login credentials",
+      "dataSharing": false,
+      "description2": "This system does NOT share shopping data with Instacart or third parties"
+    },
+    "notifications": {
+      "orderConfirmation": true,
+      "shoppingUpdates": true,
+      "deliveryNotification": true,
+      "priceAlerts": false,
+      "seasonalPromotion": true,
+      "emailAddress": "your-email@example.com"
+    },
+    "budget": {
+      "weeklyBudget": 150,
+      "instructions": "Set your target weekly grocery budget",
+      "monthlyCap": 600,
+      "trackingEnabled": true,
+      "alertWhenExceeded": true,
+      "alertThreshold": 90
+    },
+    "supportedStores": {
+      "northAmerica": [
+        {
+          "store": "Whole Foods",
+          "pros": "Best Whole30 selection, high quality",
+          "cons": "Premium pricing",
+          "priceRange": "high"
+        },
+        {
+          "store": "Kroger",
+          "pros": "Good variety, regular sales",
+          "cons": "Availability varies by region",
+          "priceRange": "medium"
+        },
+        {
+          "store": "Safeway",
+          "pros": "Good selection, loyalty rewards",
+          "cons": "Regional availability",
+          "priceRange": "medium"
+        },
+        {
+          "store": "Trader Joe's",
+          "pros": "Excellent compliant items, good prices",
+          "cons": "Limited selection, small stores",
+          "priceRange": "medium-low"
+        },
+        {
+          "store": "Sprouts Farmers Market",
+          "pros": "Fresh produce, competitive pricing",
+          "cons": "Smaller store format",
+          "priceRange": "medium-low"
+        },
+        {
+          "store": "Costco",
+          "pros": "Best bulk pricing",
+          "cons": "Requires membership, minimum orders",
+          "priceRange": "low"
+        }
+      ]
+    },
+    "shoppingListIntegration": {
+      "linkedToTemplate": "shopping-list-instacart.md",
+      "instacartLinks": true,
+      "priceDisplay": true,
+      "alternativeDisplay": true,
+      "quantityTracking": true,
+      "checkboxForSelection": true
+    },
+    "notes": "Update all settings above to customize your Instacart experience. Follow instacart-user-guide.md for detailed setup instructions."
+  }
+}
